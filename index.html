@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Data Google Sheets Anda</h1>
+
+    <div id="filter-container">
+        <label for="start-date">Tanggal Mulai:</label>
+        <input type="date" id="start-date">
+        <label for="end-date">Tanggal Akhir:</label>
+        <input type="date" id="end-date">
+        <button id="filter-btn">Filter</button>
+    </div>
+
+    <div id="table-action-buttons">
+        <button id="copy-table-btn">Salin Tabel</button>
+    </div>
+
+    <div id="table-container"></div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

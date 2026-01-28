@@ -1,0 +1,15 @@
+{
+  "name": "google-sheets-website",
+  "version": "1.0.0",
+  "description": "A website to interact with Google Sheets",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
